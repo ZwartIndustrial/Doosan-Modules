@@ -37,12 +37,6 @@ Doosan-Modules/
     └── release/
 ```
 
-Future Doosan modules can be added as additional folders beside `PlcData`.
-
-## Automatic GitHub publishing
-
-On Windows, double-click `PUBLISH_TO_GITHUB.cmd` to create or update this repository and publish the PlcData release. The first run opens GitHub's secure browser login when required. See [Automatic publishing](AUTOMATIC_PUBLISH.md) for details.
-
 ## Publisher
 
 Copyright (c) 2026 Zwart Industrial Innovations.
@@ -52,8 +46,6 @@ Doosan Robotics, DART, Dr.DART, and related product names are trademarks of thei
 ## Support further development
 
 Donations support the further development, testing, documentation, and maintenance of these modules. They are also greatly appreciated as a thank-you for making the modules available.
-
-<a href="assets/paypal-donation-qr.png"><img src="assets/donate-button.svg" alt="Donate via PayPal" width="230"></a>
 
 Scan the PayPal QR code:
 
