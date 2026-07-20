@@ -48,11 +48,10 @@ Every command polls its input register once every 0.1 seconds. It returns succes
 ## 2. Installation
 
 1. Download [`com.zii.plcdata_0.0.1.dm`](release/com.zii.plcdata_0.0.1.dm).
-2. If an older module with package name `com.zwart.wri` is installed, remove it first. Otherwise two `PlcData` groups can appear.
-3. Open DART-Platform and switch to the authority level required for module installation.
-4. Select **Install Module** on the Home screen.
-5. Choose the downloaded `.dm` file and complete the installation.
-6. Open the Task Editor and find **PlcData** under **User Commands**.
+2. Open DART-Platform and switch to the authority level required for module installation.
+3. Select **Install Module** on the Home screen.
+4. Choose the downloaded `.dm` file and complete the installation.
+5. Open the Task Editor and find **PlcData** under **User Commands**.
 
 For the platform workflow, refer to Doosan Robotics' official [Build and Install a Module guide](https://developers.drdart.io/guide/ver/pub/build-a-module).
 
@@ -223,10 +222,6 @@ When `timeout=None`, the function continues waiting until the target value is re
 
 ## 11. Troubleshooting
 
-### Two PlcData groups are visible
-
-The former `com.zwart.wri` package and the current `com.zii.plcdata` package are both installed. Remove the former package.
-
 ### All hourglasses have the same colour
 
 The Task Editor supplies the generic User Command icon and ignores the individual screen icons offered by the tested module build. This does not affect functionality.
@@ -248,7 +243,5 @@ Verify that a timeout in seconds is selected and **Show timeout popup** is enabl
 PlcData is published by Zwart Industrial Innovations.
 
 Donations support further development, testing, documentation, and maintenance and are appreciated as a thank-you for the modules.
-
-<a href="../assets/paypal-donation-qr.png"><img src="../assets/donate-button.svg" alt="Donate via PayPal" width="230"></a>
 
 <img src="../assets/paypal-donation-qr.png" alt="PayPal donation QR code" width="280">
